@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-nov-2017, 11:30:36
+    Author     : Jelmer
+*/
+
+.tekstkleur {
+    color: black;
+}
+
+html, body {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.achtergrond {
+    background-color: white !important;
+}
+
+.sidebar {
+    background-color: grey;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.collection-item {
+    background-color: grey !important;
+    border-bottom: hidden !important;
+    display: flex;
+    justify-content: center;
+}
+
+.btn.modal-trigger {
+    padding: 0;
+    /*width: 200px !important;*/
+}
+label {
+    font-size: 120% !important;
+}
+
+.login {
+    text-align: center; margin-top: 100px;
+}
+
+.boordeling {
+    height: 100vh;
+}
+
+.sel {
+    background-color: #0f9d58 !important;
+}
+
+.resultaten-select {
+    height:auto; 
+    border: none; 
+    border-radius: 0; 
+}
+
+.resultaten-option {
+    height:35px; 
+    margin:0; 
+    padding:0; 
+    border:none;
+}
+.resultaten-option:hover {
+    background-color: navy;
+}
+.resultaten-option:selected {
+    background-color: cyan;
+}
